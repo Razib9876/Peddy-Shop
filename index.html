@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Peddy - Adopt Your Best Friend</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">🐾 Peddy</div>
+    <ul class="nav-links">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Adopt</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Banner -->
+  <section class="banner">
+    <div class="banner-content">
+      <h1>Adopt Your Best Friend</h1>
+      <p>Find your perfect companion today. Because every pet deserves a loving home filled with happiness.</p>
+      <img src="https://cdn-icons-png.flaticon.com/512/616/616408.png" alt="Pet Image">
+    </div>
+  </section>
+
+  <!-- Pets Section -->
+  <section class="pets-section">
+    <h2>🐶🐱🐰🐦 Adopt Your Best Friend</h2>
+    <p>Choose from a wide range of pets waiting to find a home.</p>
+
+    <!-- Category Buttons -->
+    <div class="buttons" id="category-buttons"></div>
+
+    <!-- Best deal + Sort -->
+    <div class="filter-sort">
+      <div class="left">✨ Best Deal For You</div>
+      <button id="sort-price">Sort by Price</button>
+    </div>
+
+    <div class="content-wrapper">
+      <!-- Pets Container -->
+      <div id="pets-container" class="pets-container"></div>
+
+      <!-- Liked Items -->
+      <div class="liked-section">
+        <h3>❤️ Liked Pets</h3>
+        <div id="liked-items"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Modal -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span id="close-modal" class="close">&times;</span>
+      <div id="modal-body"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
