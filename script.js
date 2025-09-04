@@ -133,3 +133,11 @@ document.getElementById("sort-price").onclick = () => {
   petsData.sort((a, b) => a.price - b.price);
   displayPets();
 };
+
+
+// pets section by click "view pets" button
+document.getElementById("viewPetsBtn").addEventListener("click", function() {
+      document.getElementById("petsSection").scrollIntoView({ 
+        behavior: "smooth" 
+      });
+    });
